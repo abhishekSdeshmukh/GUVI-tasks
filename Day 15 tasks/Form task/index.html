@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="form">
+    <h1 id="title">Form and Table</h1>
+    <p id="description">This is a form that allows you to enter your information and displays it in a table below.</p>
+
+  <div class="container">
+    <form id="myForm">
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="first-name" name="firstName" placeholder="First Name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="last-name" name="lastName" placeholder="Last Name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="abc@xyz.com" class="form-control" required></input>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="address" name="address" class="form-control" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" placeholder="enter your pincode!" name="pincode" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <div class="form-check">
+          <input type="radio" id="male" name="gender" value="male" class="form-check-input">
+          <label for="male" class="form-check-label">Male</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" id="female" name="gender" value="female" class="form-check-input">
+          <label for="female" class="form-check-label">Female</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" id="other" name="gender" value="other" class="form-check-input">
+          <label for="other" class="form-check-label">Other</label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="food">Choice of Food (Select at least 2):</label>
+        <br>
+        <div class="form-check">
+          <input type="checkbox" id="food1" name="food" value="pizza" class="form-check-input">
+          <label for="food1" class="form-check-label">Pizza</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="food2" name="food" value="burger" class="form-check-input">
+          <label for="food2" class="form-check-label">Burger</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="food3" name="food" value="sushi" class="form-check-input">
+          <label for="food3" class="form-check-label">Sushi</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="food4" name="food" value="pasta" class="form-check-input">
+          <label for="food4" class="form-check-label">Pasta</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="food5" name="food" value="salad" class="form-check-input">
+          <label for="food5" class="form-check-label">Salad</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" placeholder="state" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="country" class="form-control" required>
+      </div>
+      <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+      <button type="button" onclick="clearForm()" class="btn btn-secondary">Clear</button>
+    </form>
+    <table id="myTable" class="table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Address</th>
+          <th>Pincode</th>
+          <th>Gender</th>
+          <th>Food</th>
+          <th>State</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  </form>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
