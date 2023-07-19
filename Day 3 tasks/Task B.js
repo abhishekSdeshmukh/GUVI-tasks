@@ -1,3 +1,5 @@
+// Use the rest countries API URL = (https://restcountries.com/v3.1/all) and display all the country flags in the console.
+
 fetch("https://restcountries.com/v3.1/all")
   .then((response) => response.json())
   .then((data) => {
