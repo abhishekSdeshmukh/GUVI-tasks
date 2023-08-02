@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid; */
+    text-align: center;
+    background-color: bisque;
+
+}
+
+p {
+    font-size: larger;
+    font-style: italic;
+}
+.quote-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#refreshButton {
+    width: max-content;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}

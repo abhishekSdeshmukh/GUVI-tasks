@@ -1,0 +1,25 @@
+body {
+  background-color: bisque;
+  /* border: 1px solid; */
+  text-align: center;
+}
+
+.quote-box {
+  border: 1px solid #111010;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: transparent;
+  text-align: center;
+  
+}
+
+#Reload {
+ /* position: relative; */
+ width: 60px;
+ height: 40px;
+ background: rgb(12, 219, 91);
+ /* margin-left: 50%;
+ transform: translate(-50%); */
+}
+
+  
