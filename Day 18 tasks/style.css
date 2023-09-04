@@ -1,0 +1,29 @@
+/* <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+
+d87f665553158cddb279a01a2f8012a5
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> */
+
+    
+.flag-img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    /* margin-top: 20px; */
+  }
+  
+  .card {
+    border: 1px solid #ced4da; /* Border color for the cards */
+    text-align: center;
+  }
+
+  .card-header {
+    height: 90%;
+  }
+
+  .card-body {
+
+  }
+  
